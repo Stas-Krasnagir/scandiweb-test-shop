@@ -45,7 +45,7 @@ export const GET_ALL_PRODUCTS_INFO = gql`
 `;
 
 export const GET_PRODUCT_INFO = gql`
-  query getOneProd($id: Sting) {
+  query getOneProd($id: String) {
     product(id: $id) {
       id
       name
