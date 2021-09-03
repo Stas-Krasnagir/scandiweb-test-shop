@@ -4,7 +4,33 @@
   align-items: center;
   flex-direction: row;
   height: 50px;
-  width: 80vw;
-  padding: 0 10px 0 10px;
+  max-width: 80vw;
   border: 1px solid red;
+}
+
+.links_container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px 0 10px;
+
+}
+
+.tools_container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px 0 10px;
+}
+
+.currencies_card {
+  display: flex;
+}
+
+.categories_card {
+  display: flex;
+  flex-direction: row;
+}
+
+.categories_element {
+  display: flex;
+  margin: 0 10px 0 0;
 }
